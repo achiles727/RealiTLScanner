@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	addrPtr := flag.String("addr", "127.0.0.1", "Destination to start scan")
+	addrPtr := flag.String("addr", "45.94.4.140", "Destination to start scan")
 	portPtr := flag.String("port", "443", "Port to scan")
 	threadPtr := flag.Int("thread", 2, "Number of threads to scan in parallel")
 	outPutFile := flag.Bool("o", false, "Is output to results.txt")
